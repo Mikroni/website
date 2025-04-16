@@ -64,12 +64,38 @@ main {
   flex-direction: column;
   overflow-x: hidden;
 }
+@media (max-width: 700px) {
+  main {
+    padding-top: 32px;
+  }
+
+  header h1 {
+    font-size: 24px;
+  }
+
+  main header p {
+    font-size: 16px;
+  }
+
+  header nav {
+    gap: 1rem;
+  }
+
+  header .customer-logos {
+    flex-wrap: wrap;
+    gap: 16px 32px;
+  }
+
+  main blockquote {
+    font-size: 24px;
+  }
+}
 
 .content-width {
-  max-width: 1240px;
+  max-width: min(calc(100% - 3rem), 1240px);
   margin: 0 auto;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 header.content-width {
@@ -138,8 +164,16 @@ nav {
     place-items: center;
   }
 
-  nav a {
+  nav .button {
     width: 100%;
+  }
+
+  nav .button-inner {
+    padding: 15px 8px;
+  }
+
+  nav a:not(.button) {
+    text-align: center;
   }
 }
 
@@ -419,7 +453,7 @@ blockquote {
   --pulse-animation: pulse-unavailable;
   padding: 10px 15px;
 
-  height: 30px;
+  min-height: 30px;
   display: flex;
   align-items: center;
   gap: 7.5px;
@@ -448,6 +482,8 @@ blockquote {
 .availability-badge .dot {
   height: 8px;
   width: 8px;
+  min-width: 8px;
+  min-height: 8px;
   background-color: var(--badge-dot);
   border-radius: 4px;
   transform: scale(1);
@@ -554,10 +590,19 @@ footer {
 }
 
 .footer-content {
-  padding: 75px 100px;
-
+  padding: 75px 100px 125px;
+  
   display: flex;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 920px) {
+  .footer-content {
+    padding: 50px 25px;
+
+    flex-direction: column;
+    gap: 1rem;
+  }
 }
 
 .footer-content h2 {
@@ -601,4 +646,11 @@ footer {
   width: 100vw;
   max-width:100%;
   display: flex;
+}
+
+/** Looks too dumb on small devices **/
+@media screen and (max-width: 400px) {
+  .big-logo {
+    display: none;
+  }
 }
