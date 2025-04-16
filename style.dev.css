@@ -258,7 +258,7 @@ a {
   transition: color 150ms ease-in-out;
 }
 
-a:hover {
+a:not(.button):hover {
   color: #1d2d35bf;
 }
 
