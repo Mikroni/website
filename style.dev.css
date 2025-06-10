@@ -388,6 +388,7 @@ li {
 .content-section-white {
   background-color: white;
   padding-top: 100px;
+  padding-bottom: 75px;
 }
 
 .content-section-white.last-referral {
