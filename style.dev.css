@@ -291,13 +291,16 @@ header p {
   align-items: center;
 }
 
-.customer-logos a svg {
+.customer-logos a svg,
+.customer-logos a img {
   filter: brightness(0) saturate(100%) opacity(0.85);
   transition: filter 150ms ease-out;
 }
 
 .customer-logos a:hover svg,
-.customer-logos a:focus svg {
+.customer-logos a:focus svg,
+.customer-logos a:hover img,
+.customer-logos a:focus img {
   filter: none;
 }
 .marquees {
