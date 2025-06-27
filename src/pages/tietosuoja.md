@@ -37,7 +37,7 @@ Mikroni Digitalin asiakas- ja markkinointirekisteri.
 Keräämme tietoja
 - asiakkaistamme, jotta voimme toimittaa palveluitamme ja olla heihin yhteydessä
 - liikekumppaneistamme, jotta voimme hoitaa liikesuhteita ja olla heihin yhteydessä
-- asiakasprospekteista, jotta voimme toteuttaa myyntiä ja markkinointia osana liiketoimitaamme
+- asiakasprospekteista, jotta voimme toteuttaa myyntiä ja markkinointia osana liiketoimintaamme
 
 Keräämme seuraavia tietoja:
 - Nimesi ja yhteystietosi (etu- ja sukunimi, sähköpostiosoite, puhelinnumero, postiosoite)
@@ -48,7 +48,7 @@ Keräämme seuraavia tietoja:
 Näitä tietoja käytetään:
 1. Tilausten ja palveluiden toimittaminen, ylläpito, asiakasviestintä ja laskuttaminen.
 2. Asiakassuhteiden hoitaminen, kehittäminen, markkinointi ja väärinkäytösten estäminen.
-3. Myyntiin ja markkinointiin osana liiketoimintaa
+3. Myynnin ja markkinoinnin toteuttamiseen
 
 Tietojenkäsittelyn perusteena on:
 
@@ -74,13 +74,13 @@ Tietojenkäsittelyn perusteena on rekisterinpitäjän oikeutettu etu.
 
 ### 3.3. Uutiskirjeen tilaajat
 
-Käsittelemme henkilötietojasi, jotta voimme toimittaa sinulle uutiskirjeen ja mahdollista muuta markkinointisisältöä. Tämän lisäksi seuraamme sähköpostien avausmääriä ja niissä olevien linkkien klikkauksia.
+Käsittelemme henkilötietojasi, jotta voimme toimittaa sinulle uutiskirjeen ja mahdollista muuta markkinointisisältöä. Tämän lisäksi seuraamme sähköpostien avaamisia ja niissä olevien linkkien klikkauksia.
 
 Tietojenkäsittelyn perusteena on suostumus.
 
-## 5. Henkilötietojen käsittelyn kesto
+## 4. Henkilötietojen käsittelyn kesto
 
-Säilytämme asiakastietoja asiakassuhteen ajan ja 5 vuotta tämän jälkeen.
+Säilytämme asiakastietoja asiakassuhteen ajan ja 5 vuotta sen päättymisen jälkeen.
 
 Uutiskirjeen tilaajien tietoja säilytetään, kunnes tilaaja peruuttaa tilauksensa.
 
@@ -93,13 +93,13 @@ Henkilötietojasi voidaan säilyttää:
 - sähköpostiarkistoissa (tarjoaja Google Ireland, säilytys ETA-alueella)
 - kirjanpitojärjestelmässä (tarjoaja Fennoa Oy, säilytys ETA-alueella)
 
-## 6. Tietojen säännönmukaiset tietolähteet
+## 5. Tietojen säännönmukaiset tietolähteet
 
 Henkilötiedot saadaan pääasiassa rekisteröidyltä itseltään tai tämän työnantajalta. Tämän lisäksi henkilötietoja voidaan kerätä tai ostaa muista lähteistä, kuten Patentti- ja rekisterihallituksen Virre-järjestelmästä, YTJ:stä tai julkisesti saatavilla olevista lähteistä kuten verkkosivuilta, sosiaalisen median palveluista (esim. LinkedIn) tai kolmannen osapuolen palveluista.
 
 ## 6. Henkilötietojen käsittelijät
 
-Mikroni Digitalilla henkilötietojasi käsittelee ainoastaan yrityksen henkilökunta ja tarvittaessa alihankkijat, joilla on voimassa salassapitosopimus.
+Mikroni Digitalilla henkilötietojasi käsittelee ainoastaan yrityksen henkilökunta ja tarvittaessa alihankkijat, joiden kanssa on voimassa oleva salassapitosopimus.
 
 Tämän lisäksi käytämme toimintamme mahdollistamiseen ulkopuolisia palveluita, jotka saattavat käsitellä henkilötietojasi:
 
@@ -116,7 +116,7 @@ Kaikkien kumppaneidemme kanssa on tehty asianmukaiset sopimukset (kuten henkilö
 
 Rekisterinpitäjä ei lähtökohtaisesti siirrä henkilötietojasi ETA-alueen ulkopuolelle. Google Workspacen tietojen säilytys- ja käsittelyalueeksi on valittu EU. Mikäli tietoja siirretään ETA-alueen ulkopuolelle, siirroissa noudatetaan Euroopan unionin ohjeistuksia tietosuojan ja tietojen turvallisuuden säilyttämiseksi.
 
-Emme myy henkilötietojasi eteenpäin tai luovuta niitä kaupallisiin tarkoituksiin. Luovutamme henkilötietojasi kolmansille osapuolille ainostaan seuraavissa tilanteissa:
+Emme myy henkilötietojasi eteenpäin tai luovuta niitä kaupallisiin tarkoituksiin. Luovutamme henkilötietojasi kolmansille osapuolille ainoastaan seuraavissa tilanteissa:
 - mikäli laki tai viranomainen niin vaatii
 - ette ole maksaneet laskua, jolloin se siirretään perintätoimiston käsiteltäväksi
 - maksutoimeksiannon suorittamiseksi (esim. maksupalvelun kuten Stripen käyttö)
