@@ -1,0 +1,79 @@
+---
+type Props = {
+  color: 'yellow' | 'orange';
+  texts: string[];
+}
+
+const { color, texts } = Astro.props;
+---
+<div class={`marquee ${color}`}>
+  <ul class="marquee-content">
+    {texts.map((i) => <li>{i}</li>)}
+  </ul>
+  <ul class="marquee-content" aria-hidden="true">
+    {texts.map((i) => <li>{i}</li>)}
+  </ul>
+</div>
+
+<style>
+  .marquee {
+    --gap: 1rem;
+    --duration: 60s;
+    display: flex;
+    user-select: none;
+    gap: var(--gap);
+
+    height: 100px;
+    width: 110vw;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    box-shadow: 0 0 0 1px #000;
+
+    transform: rotate(-3deg) translateX(-16px);
+    z-index: 10;
+  }
+
+  .marquee.yellow {
+    top: 128px;
+    background-color: #FEE691;
+  }
+
+  .marquee.orange {
+    background-color: #FFC7A6;
+  }
+
+  .marquee-content {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-around;
+    min-width: 100%;
+    gap: var(--gap);
+    animation: scroll var(--duration) linear infinite;
+    font-size: 2rem;
+    line-height: 1;
+    font-weight: 600;
+    padding-left: 0;
+  }
+
+  .marquee.yellow .marquee-content {
+    animation-direction: reverse;
+  }
+
+  @keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(calc(-100% - var(--gap)));
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .marquee-content {
+      animation-play-state: paused;
+    }
+  }
+</style>

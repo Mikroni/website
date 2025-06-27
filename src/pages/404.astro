@@ -1,0 +1,19 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="404 - Ei löytynyt" description='Sivua ei löytynyt' lang='fi' translated={false}>
+  <meta name="robots" content="noindex" slot='after-head'>
+  <div class="text-content content-width">
+    <h1>404 - Ei löytynyt</h1>
+
+    <p>Päädyit sivulle, jota ei ole olemassa.</p>
+
+    <a href="/">Takaisin etusivulle</a>
+  </div>
+</Layout>
+
+<style>
+	.text-content {
+		width: 100%;
+	}
+</style>

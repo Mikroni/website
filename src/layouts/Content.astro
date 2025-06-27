@@ -1,0 +1,17 @@
+---
+import Layout from './Layout.astro';
+
+const { frontmatter } = Astro.props;
+---
+<Layout title={frontmatter.title} description={frontmatter.description} lang={frontmatter.lang ?? 'fi'} translated={frontmatter.translated ?? false} darkFooter>
+	<article class="text-content content-width">
+		<slot />
+	</article>
+</Layout>
+
+<style>
+	.text-content {
+		width: 100%;
+		padding-bottom: 6rem;
+	}
+</style>

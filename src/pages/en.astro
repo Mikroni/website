@@ -1,0 +1,131 @@
+---
+import AvailabilityBadge from '../components/AvailabilityBadge.astro';
+import Marquee from '../components/Marquee.astro';
+import Quote from '../components/Quote.astro';
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout lang="en" title='Full-Stack Developer and Freelancer from Finland' description="Hi! I'm Roni Äikäs, a full-stack developer and freelancer from Finland. Do you need a helping hand with a software project? Let's talk!" translated={true}>
+  <header class="content-width">
+    <img class="pfp" src="/assets/roni.jpg" alt="Roni Äikäs" height="90" width="90">
+    <h1>Hi! I'm Roni Äikäs, a full-stack developer and freelancer.</h1>
+    <p>
+      Need a part-time but skilled web developer to help with your project as a contractor? You're in the right place! I can help with pretty much anything related to programming and the web — whether it's building websites, software, integrations, native apps, or full-blown web platforms. Got something cool in mind? Don't hesitate to get in touch — let's see if we're a good match!
+    </p>
+    <p>
+      I'm comfortable developing backend (Node, Python, PHP) as well frontend (React, SCSS, Tailwind, Flutter, etc.). My strongest areas are JavaScript/TypeScript, React, and WordPress, but I've worked with a wide range of technologies — and I'm always keen to learn more.
+    </p>
+    <p>
+      Despite being relatively young, I've already been part of building dozens of websites and digital services. I have done work for a wide variety of clients from a WordPress agency to a VC-funded tech startup.
+    </p>
+    <nav>
+      <a href="mailto:roni@mikroni.fi" class="button">
+        <div class="button-inner">Contact me</div>
+      </a>
+      <a href="https://linkedin.com/in/roni-aikas">
+        LinkedIn
+      </a>
+      <a href="https://github.com/raikasdev">
+        GitHub
+      </a>
+    </nav>
+    <div class="customers">
+      <h2>Trusted by</h2>
+      <div class="customer-logos">
+        <a href="https://dude.fi">
+          <svg width="150" height="32.175" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2267.72 453.54" xml:space="preserve">
+            <title>Digitoimisto Dude Oy</title>
+            <path fill="#04061B" d="M950.26 211.64c0 37.66-12.7 111.12-97.79 111.12-85.61 0-98.4-73.47-98.4-111.12V5.23H590.91v217.92c0 138.73 97.78 221.55 261.55 221.55 163.39 0 260.93-82.82 260.93-221.55V5.23H950.26zm1314.15-84.47V5.23h-505.2v439.48h505.2V322.76h-345.08v-48.71h286.91v-98.17h-286.91v-48.71zM317.21 5.23H3v439.48h314.21c108.81 0 219.87-87.76 219.87-219.74 0-132.83-111.06-219.74-219.87-219.74m-39.84 317.53H166.14v-195.4h111.23c57.58 0 97.7 45.79 97.7 97.61 0 52.51-40.12 97.79-97.7 97.79M1485.51 5.23H1171.3v439.48h314.21c108.81 0 219.87-87.76 219.87-219.74 0-132.83-111.06-219.74-219.87-219.74m-39.84 317.53h-111.23v-195.4h111.23c57.58 0 97.7 45.79 97.7 97.61 0 52.51-40.12 97.79-97.7 97.79"/>
+          </svg>
+        </a>
+        <a href="https://innokas.eu">
+          <img width="150" alt="Innokas Medical" src="data:image/png;base64,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">
+        </a>
+        <a href="https://novu.co">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 102 32" width="150" height="47.05">
+            <path fill="#000" d="M51.624 22.58v-7.393q0-1.914-.918-2.91t-2.885-.996q-1.337 0-2.124.262-.786.236-.996.34v10.698H42V10.154q.105-.053.577-.236.472-.184 1.259-.394t1.835-.367Q46.721 9 47.98 9q1.441 0 2.622.393 1.18.367 1.993 1.075a4.7 4.7 0 0 1 1.285 1.704q.446.996.446 2.255v8.154zM71.889 16q0 1.495-.525 2.779a6.6 6.6 0 0 1-1.416 2.229 7 7 0 0 1-2.203 1.468Q66.461 23 64.913 23t-2.858-.524a7 7 0 0 1-2.203-1.468 6.9 6.9 0 0 1-1.442-2.229A7.6 7.6 0 0 1 57.912 16q0-1.494.498-2.779a6.6 6.6 0 0 1 1.443-2.202 6.4 6.4 0 0 1 2.202-1.468Q63.366 9 64.913 9t2.832.55q1.285.525 2.203 1.469a6.3 6.3 0 0 1 1.416 2.202q.525 1.285.525 2.779m-2.806 0q0-1.05-.289-1.914a4.3 4.3 0 0 0-.839-1.52 3.4 3.4 0 0 0-1.31-.997q-.762-.366-1.732-.367-.996 0-1.783.367a3.64 3.64 0 0 0-1.31.996q-.525.63-.814 1.521A6 6 0 0 0 60.718 16q0 1.05.288 1.94.289.866.813 1.52.55.63 1.311.997.788.34 1.783.34.97 0 1.731-.34a3.7 3.7 0 0 0 1.311-.996q.55-.656.84-1.52A6.3 6.3 0 0 0 69.082 16m18.501-6.004q-.156.577-.55 1.547-.367.944-.866 2.124-.498 1.179-1.1 2.49a84 84 0 0 1-1.18 2.517q-.578 1.206-1.129 2.281-.524 1.05-.917 1.757h-2.806a75 75 0 0 1-.996-1.836 111 111 0 0 0-1.023-2.045 210 210 0 0 1-.97-2.07 110 110 0 0 0-.892-1.888q-.393-.892-.708-1.573-.287-.682-.446-1.05-.158-.366-.314-.786a2.3 2.3 0 0 1-.158-.786q0-.472.315-.865.315-.394 1.075-.394.524 0 .813.105t.315.131q.446 1.233 1.022 2.7.603 1.47 1.207 2.91.63 1.417 1.206 2.727.576 1.285 1.022 2.177.315-.603.813-1.705.525-1.127 1.075-2.464.578-1.337 1.154-2.753.578-1.416 1.023-2.595.21-.577.524-.892.315-.34 1.05-.34.628 0 .996.235.393.237.445.341m11.717.656q0-.63.366-.918.368-.315 1.049-.315.446 0 .787.105.367.105.498.158V22.58a5 5 0 0 1-.656.104q-.446.052-1.101.105a17 17 0 0 1-1.442.105q-.787.053-1.6.053-2.386 0-3.88-.577-1.47-.577-2.334-1.678-1.075-1.39-1.075-3.697v-6.344q0-.63.367-.918.366-.315 1.049-.315.445 0 .786.105.368.105.498.158v7.026q0 1.992.997 2.989 1.023.996 3.435.996.918 0 1.468-.053.577-.078.787-.13z"/>
+            <use href="#a" fill="url(#b)"/>
+            <use href="#a" fill="url(#c)"/>
+            <use href="#a" fill="url(#d)"/>
+            <defs>
+              <linearGradient id="c" x1="19.733" x2="16" y1="-1.067" y2="32" gradientUnits="userSpaceOnUse">
+                <stop offset=".085" stop-color="#FFBA33"/>
+                <stop offset=".553" stop-color="#FF006A" stop-opacity="0"/>
+              </linearGradient>
+              <linearGradient id="d" x1="16" x2="16" y1="0" y2="32" gradientUnits="userSpaceOnUse">
+                <stop offset=".547" stop-opacity="0"/>
+                <stop offset="1" stop-opacity=".6"/>
+              </linearGradient>
+              <radialGradient id="b" cx="0" cy="0" r="1" gradientTransform="rotate(135 4.686 11.314)scale(22.6274)" gradientUnits="userSpaceOnUse">
+                <stop offset=".34" stop-color="#FF006A"/>
+                <stop offset=".613" stop-color="#E300BD"/>
+                <stop offset=".767" stop-color="#FF4CE1"/>
+              </radialGradient>
+              <path id="a" fill-rule="evenodd" d="M24.64 12.826c0 .86-1.044 1.286-1.646.671L10.676.907A16 16 0 0 1 16 0c3.183 0 6.148.93 8.64 2.531zm4.48-5.986v5.986c0 4.875-5.919 7.289-9.328 3.804L6.545 3.091C2.576 6.003 0 10.701 0 16c0 3.407 1.065 6.565 2.88 9.16v-5.954c0-4.875 5.919-7.289 9.328-3.804l13.229 13.52A15.98 15.98 0 0 0 32 16c0-3.407-1.065-6.565-2.88-9.16M9.006 18.535 21.301 31.1c-1.659.583-3.443.9-5.301.9-3.182 0-6.148-.93-8.64-2.531V19.206c0-.86 1.045-1.286 1.646-.671" clip-rule="evenodd"/>
+            </defs>
+          </svg>                     
+        </a>
+      </div>
+    </div>
+  </header>
+  <!-- RIP <marquee> -->
+  <div class="marquees">
+    <Marquee
+			color='orange'
+			texts={[
+				'WordPress',
+				'Websites',
+				'Full-stack',
+				'Web applications',
+				'Integrations',
+				'Extensions',
+				'Linux servers',
+				'Native apps',
+			]}
+		/>
+		<Marquee
+			color='yellow'
+			texts={[
+				'PHP',
+				'SCSS',
+				'React',
+				'Node.js',
+				'TypeScript',
+				'Next.js',
+				'Gutenberg',
+				'Tailwind',
+				'Python',
+				'WebAssembly',
+				'GraphQL',
+				'Flutter',
+			]}
+		/>
+  </div>
+  <Quote name="Juha Laitinen" title="CEO, Digitoimisto Dude Oy" photo="/assets/juha_dude.jpg">
+    Roni Äikäs, aka Doctor Äikäs. You can bring even the trickiest WordPress problem to this guy, and you can be sure he won't be stumped. Plus, the wait times are reasonable (great developers always have work lined up).
+		<br /><br/>
+		Roni is a highly professional WordPress developer whose services we will continue to use, and on top of that, he's a really nice guy!
+  </Quote>
+  <Quote name="Heikki Miinalainen" title="Senior Software Engineer, Innokas Medical Oy" photo="/assets/heikki_innokas.jpg" last>
+    For our critical deadlines, Roni was just the needed expert to provide skills and insights for a succesful feature launch. In our team, he demonstrated his deep knowledge on frontend logic, the great ability to find knowledge on ad-hoc systems, and quick planning and creation of architecturally sane solutions.
+  </Quote>
+  <svg xmlns="http://www.w3.org/2000/svg" width="100" viewBox="0 0 1920 70" fill="none" class="soft-separator">
+    <path d="M1920 0s-385.23 26.217-960 26.217C385.234 26.217 0 0 0 0v70.17h1920z" fill="#1D2D35"/>
+  </svg>
+  <div class="content-section-dark">
+    <div class="content-width availability">
+      <AvailabilityBadge lang='en' />
+
+      <h2>Let's make your project a reality!</h2>
+      <p>
+        Whether your project is big or small, I can help! I primarily work remotely and in the evenings as I'm a full time student. If needed, I can also come to your office (Tampere, Helsinki, etc.) for a day depending on my schedule.
+      </p>
+      <p>
+        I've previously worked on projects with a fixed number of hours (e.g. 60 %) or on a zero-hour contract basis, depending on the client's needs.
+      </p>
+      <p>
+        Send me an email at <a href="mailto:roni@mikroni.fi">roni@mikroni.fi</a> and let's see how I can help!
+      </p>
+    </div>
+  </div>
+</Layout>

@@ -1,0 +1,130 @@
+---
+type Props = {
+  lang?: 'en' | 'fi';
+  text?: string;
+}
+
+type Availability = 'available' | 'booked' | 'limited';
+const availability: Availability = 'limited';
+
+const texts: Record<Exclude<Props['lang'], undefined>, Record<Availability, string>> = {
+  fi: {
+    available: 'Valmiina uusiin haasteisiin',
+    booked: 'Kalenteri täynnä',
+    limited: 'Kalenterissa täyttä, avoin keskustelulle',
+  },
+  en: {
+    available: 'Ready for new challenges',
+    booked: 'Calendar full',
+    limited: 'Limited availability, open for discussion',
+  }
+}
+
+const { text, lang } = Astro.props;
+const availabilityText = text ?? texts[lang ?? 'fi'][availability];
+---
+<div class={`availability-badge ${availability}`}>
+  <div class="dot"></div>
+  <p class="status">{availabilityText}</p>
+</div>
+<style>
+  .availability-badge {
+    --badge-bg: #FEE691;
+    --badge-dot: #F0B100;
+    --badge-text: #432004;
+    --pulse-animation: pulse-unavailable;
+    padding: 10px 15px;
+
+    min-height: 30px;
+    display: flex;
+    align-items: center;
+    gap: 7.5px;
+    background-color: var(--badge-bg);
+    color: var(--badge-text);
+    border-radius: 50px;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+
+  .availability-badge.available {
+    --badge-bg: #dcfce7;
+    --badge-dot: #00c951;
+    --badge-text: #008236;
+    --pulse-animation: pulse-available;
+  }
+
+  .availability-badge.booked {
+    --badge-bg: #ffe2e2;
+    --badge-dot: #fb2c36;
+    --badge-text: #c10007;
+    --pulse-animation: pulse-booked;
+  }
+
+
+  .availability-badge .dot {
+    height: 8px;
+    width: 8px;
+    min-width: 8px;
+    min-height: 8px;
+    background-color: var(--badge-dot);
+    border-radius: 4px;
+    transform: scale(1);
+    animation: var(--pulse-animation) 2s infinite;
+  }
+
+  .availability-badge .status {
+    font-size: 15px;
+    line-height: 1;
+  }
+
+  @keyframes pulse-available {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 #00c951CC;
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 6px rgba(0, 0, 0, 0);
+    }
+
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+  }
+
+  @keyframes pulse-unavailable {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 #F0B100CC;
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 6px rgba(0, 0, 0, 0);
+    }
+
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+  }
+
+  @keyframes pulse-booked {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 #fb2c36CC;
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 6px rgba(0, 0, 0, 0);
+    }
+
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+  }
+</style>
