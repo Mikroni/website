@@ -89,7 +89,7 @@ Verkkosivuston kävijöihin liitettäviä henkilötietoja säilytetään kuusi (
 Tämän lisäksi säilytämme kirjanpitolain velvoittamana vähintään kuusi (6) vuotta kirjanpitoaineistoa, joka voi sisältää henkilötietojanne.
 
 Henkilötietojasi voidaan säilyttää:
-- asiakkuudenhallintajärjestelmässä (tarjoaja Zestia Ltd, säilytys Yhdysvalloissa, lisätietoja suojauksesta kohdassa 6)
+- asiakkuudenhallintajärjestelmässä (tarjoaja Zestia Ltd, säilytys Yhdysvalloissa, lisätietoja suojauksesta kohdassa 7)
 - sähköpostiarkistoissa (tarjoaja Google Ireland, säilytys ETA-alueella)
 - kirjanpitojärjestelmässä (tarjoaja Fennoa Oy, säilytys ETA-alueella)
 
