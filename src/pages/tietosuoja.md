@@ -17,7 +17,7 @@ Tässä tietosuojaselosteessa kerrotaan, kuinka Mikroni Digital käsittelee henk
 
 Tämä seloste on laadittu EU:n yleisen tietosuoja-asetuksen (GDPR) mukaisesti.
 
-Laadittu 27.6.2025. Päivitetty viimeksi 27.6.2025.
+Laadittu 27.6.2025. Päivitetty viimeksi 29.6.2025.
 
 ## 1. Rekisterinpitäjä
 
