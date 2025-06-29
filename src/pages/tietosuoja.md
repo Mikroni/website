@@ -7,9 +7,9 @@ title: Tietosuojaseloste
 
 ## Tiivistelmä
 
-Keräämme sinusta ne samat henkilötiedot mitkä käytännössä kaikki muutkin yritykset. Jos olet asiakkaamme tai liikekumppanimme, käytämme niitä sopimusvelvotteiden täyttämiseen ja viestintään. Jos et ole asiakkaamme, käytämme niitä pääasiassa markkinointiin ja myynniin edistämiseen. Tietojasi säilytetään EU-alueella eikä niitä luovuteta kolmansille osapuolille kauppallisiin tarkoituksiin. Saamme tiedot pääasiassa sinulta, työnantajaltasi tai julkisista lähteistä (esim. YTJ).
+Keräämme sinusta ne samat henkilötiedot mitkä käytännössä kaikki muutkin yritykset. Jos olet asiakkaamme tai liikekumppanimme, käytämme niitä sopimusvelvotteiden täyttämiseen ja viestintään. Jos et ole asiakkaamme, käytämme niitä pääasiassa markkinointiin ja myynniin edistämiseen. Pääosa tiedoistasi säilytetään EU-alueella, mutta henkilötietoja säilytetään myös Yhdysvalloissa asianmukaisin suojatoimin (Data Privacy Framework). Emme luovuta tietojasi kolmansille osapuolille kaupallisiin tarkoituksiin. Saamme tiedot pääasiassa sinulta, työnantajaltasi tai julkisista lähteistä (esim. YTJ).
 
-Markkinointisivustollamme ei käytetä evästeitä, mutta alustoillamme niitä käytetään tunnistautumiseen ja analytiikkaan. Seuraavat toimijat käsittelevät tietojasi lukuumme: Google, Pipedrive OÜ, Fennoa Oy, Slack, PostHog sekä perintätoimisto jos et maksa laskujasi ajallaan.
+Markkinointisivustollamme ei käytetä evästeitä, mutta alustoillamme niitä käytetään tunnistautumiseen ja analytiikkaan. Seuraavat toimijat käsittelevät tietojasi lukuumme: Google, Zestia Ltd sekä heidän tytäryhtiönsä CapsuleCRM Inc, Fennoa Oy, Slack, PostHog sekä perintätoimisto jos et maksa laskujasi ajallaan.
 
 ## 0. Perustiedot
 
@@ -89,7 +89,7 @@ Verkkosivuston kävijöihin liitettäviä henkilötietoja säilytetään kuusi (
 Tämän lisäksi säilytämme kirjanpitolain velvoittamana vähintään kuusi (6) vuotta kirjanpitoaineistoa, joka voi sisältää henkilötietojanne.
 
 Henkilötietojasi voidaan säilyttää:
-- asiakkuudenhallintajärjestelmässä (tarjoaja Pipedrive OÜ, säilytys ETA-alueella)
+- asiakkuudenhallintajärjestelmässä (tarjoaja Zestia Ltd, säilytys Yhdysvalloissa, lisätietoja suojauksesta kohdassa 6)
 - sähköpostiarkistoissa (tarjoaja Google Ireland, säilytys ETA-alueella)
 - kirjanpitojärjestelmässä (tarjoaja Fennoa Oy, säilytys ETA-alueella)
 
@@ -101,10 +101,10 @@ Henkilötiedot saadaan pääasiassa rekisteröidyltä itseltään tai tämän ty
 
 Mikroni Digitalilla henkilötietojasi käsittelee ainoastaan yrityksen henkilökunta ja tarvittaessa alihankkijat, joiden kanssa on voimassa oleva salassapitosopimus.
 
-Tämän lisäksi käytämme toimintamme mahdollistamiseen ulkopuolisia palveluita, jotka saattavat käsitellä henkilötietojasi:
+Tämän lisäksi käytämme toimintamme mahdollistamiseen ulkopuolisia palveluita, jotka saattavat käsitellä henkilötietojasi lukuumme:
 
 1. Käytämme Googlen pilvipalveluita (Google Workspace) rekisterin ylläpitoon ja sähköpostiviestintään.
-2. Käytämme Pipedrive OÜ:n CRM-järjestelmää asiakastietojen hallintaan.
+2. Käytämme Zestia Ltd:n toimittamaa CRM-järjestelmää asiakastietojen hallintaan.
 3. Käytämme Fennoa Oy:n kirjanpito- ja laskutusohjelmistoa laskutukseen ja kirjanpitoaineiston hoitamiseen.
 4. Saatamme luovuttaa henkilötietojasi ulkopuoliselle perintätoimistolle, mikäli se on tarpeellista erääntyneen laskun maksun saamiseksi.
 5. Käytämme Slack-pikaviestipalvelua toiminnan organisointiin sekä viestintään asiakkaiden ja liikekumppaneiden kanssa.
@@ -114,7 +114,9 @@ Kaikkien kumppaneidemme kanssa on tehty asianmukaiset sopimukset (kuten henkilö
 
 ## 7. Tietojen siirto ETA-alueen ulkopuolelle tai kolmansille osapuolille
 
-Rekisterinpitäjä ei lähtökohtaisesti siirrä henkilötietojasi ETA-alueen ulkopuolelle. Google Workspacen tietojen säilytys- ja käsittelyalueeksi on valittu EU. Mikäli tietoja siirretään ETA-alueen ulkopuolelle, siirroissa noudatetaan Euroopan unionin ohjeistuksia tietosuojan ja tietojen turvallisuuden säilyttämiseksi.
+Asiakkuudenhallintajärjestelmämme palvelimet sijaitsevat Yhdysvalloissa (toimittaja Zestia Ltd. ja tämän tytäryhtiö CapsuleCRM Inc). Siirrossa noudatetaan EU:n Data Privacy Framework -tietosuojakehystä turvallisen tiedonsiirron ja tietojen säilyttämisen takaamiseksi. CapsuleCRM Inc on Data Privacy Framework -sertifioitu yhtiö, jonka voi tarkistaa Yhdysvaltain kauppaministeriön ylläpitämästä verkkopalvelusta osoitteessa [www.dataprivacyframework.gov/list](https://www.dataprivacyframework.gov/list).
+
+Tätä lukuunottamatta rekisterinpitäjä ei lähtökohtaisesti siirrä henkilötietojasi ETA-alueen ulkopuolelle. Mikäli tietoja siirretään ETA-alueen ulkopuolelle, siirroissa noudatetaan Euroopan unionin ohjeistuksia tietosuojan ja tietojen turvallisuuden säilyttämiseksi.
 
 Emme myy henkilötietojasi eteenpäin tai luovuta niitä kaupallisiin tarkoituksiin. Luovutamme henkilötietojasi kolmansille osapuolille ainoastaan seuraavissa tilanteissa:
 - mikäli laki tai viranomainen niin vaatii
@@ -131,7 +133,7 @@ Käsittelemme henkilötietojasi huolellisesti ja noudatamme hyvää tietosuojak�
 
 Tietojärjestelmät ja palvelut, joissa henkilötietoja käsitellään, on suojattu palomuureilla, salasanoin ja muilla teknisillä keinoilla. Pääsy henkilötietoihin on rajattu vain niille Mikroni Digitalin työntekijöille ja alihankkijoille, jotka tarvitsevat tietoja työtehtäviensä suorittamiseen. Jokaisella käyttäjällä on henkilökohtaiset käyttäjätunnukset ja salasanat. Työntekijät ja alihankkijat ovat sitoutuneet noudattamaan salassapitovelvollisuutta.
 
-Fyysisten aineistojen osalta pääsy on rajattu ja tilat ovat valvottuja.
+Fyysisten aineistojen osalta pääsy on rajattu.
 
 ## 10. Rekisteröidyn oikeudet
 
