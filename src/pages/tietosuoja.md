@@ -88,11 +88,6 @@ Verkkosivuston kävijöihin liitettäviä henkilötietoja säilytetään kuusi (
 
 Tämän lisäksi säilytämme kirjanpitolain velvoittamana vähintään kuusi (6) vuotta kirjanpitoaineistoa, joka voi sisältää henkilötietojanne.
 
-Henkilötietojasi voidaan säilyttää:
-- asiakkuudenhallintajärjestelmässä (tarjoaja Zestia Ltd, säilytys Yhdysvalloissa, lisätietoja suojauksesta kohdassa 7)
-- sähköpostiarkistoissa (tarjoaja Google Ireland, säilytys ETA-alueella)
-- kirjanpitojärjestelmässä (tarjoaja Fennoa Oy, säilytys ETA-alueella)
-
 ## 5. Tietojen säännönmukaiset tietolähteet
 
 Henkilötiedot saadaan pääasiassa rekisteröidyltä itseltään tai tämän työnantajalta. Tämän lisäksi henkilötietoja voidaan kerätä tai ostaa muista lähteistä, kuten Patentti- ja rekisterihallituksen Virre-järjestelmästä, YTJ:stä tai julkisesti saatavilla olevista lähteistä kuten verkkosivuilta, sosiaalisen median palveluista (esim. LinkedIn) tai kolmannen osapuolen palveluista.
@@ -114,9 +109,9 @@ Kaikkien kumppaneidemme kanssa on tehty asianmukaiset sopimukset (kuten henkilö
 
 ## 7. Tietojen siirto ETA-alueen ulkopuolelle tai kolmansille osapuolille
 
-Asiakkuudenhallintajärjestelmämme palvelimet sijaitsevat Yhdysvalloissa (toimittaja Zestia Ltd. ja tämän tytäryhtiö CapsuleCRM Inc). Siirrossa noudatetaan EU:n Data Privacy Framework -tietosuojakehystä turvallisen tiedonsiirron ja tietojen säilyttämisen takaamiseksi. CapsuleCRM Inc on Data Privacy Framework -sertifioitu yhtiö, jonka voi tarkistaa Yhdysvaltain kauppaministeriön ylläpitämästä verkkopalvelusta osoitteessa [www.dataprivacyframework.gov/list](https://www.dataprivacyframework.gov/list).
+Asiakkuudenhallintajärjestelmämme palvelimet sijaitsevat Yhdysvalloissa (toimittaja Zestia Ltd. ja tämän tytäryhtiö CapsuleCRM Inc). Siirtoperuste on Komission päätös riittävästä tietosuojan tasosta. Siirrossa noudatetaan EU:n Data Privacy Framework -tietosuojakehystä turvallisen tiedonsiirron ja tietojen säilyttämisen takaamiseksi. CapsuleCRM Inc on Data Privacy Framework -sertifioitu yhtiö, jonka voi tarkistaa Yhdysvaltain kauppaministeriön ylläpitämästä verkkopalvelusta osoitteessa [www.dataprivacyframework.gov/list](https://www.dataprivacyframework.gov/list).
 
-Tätä lukuunottamatta rekisterinpitäjä ei lähtökohtaisesti siirrä henkilötietojasi ETA-alueen ulkopuolelle. Mikäli tietoja siirretään ETA-alueen ulkopuolelle, siirroissa noudatetaan Euroopan unionin ohjeistuksia tietosuojan ja tietojen turvallisuuden säilyttämiseksi.
+Tätä lukuun ottamatta rekisterinpitäjä ei lähtökohtaisesti siirrä henkilötietojasi ETA-alueen ulkopuolelle. Mikäli tietoja siirretään ETA-alueen ulkopuolelle, siirroissa noudatetaan Euroopan unionin ohjeistuksia tietosuojan ja tietojen turvallisuuden säilyttämiseksi.
 
 Emme myy henkilötietojasi eteenpäin tai luovuta niitä kaupallisiin tarkoituksiin. Luovutamme henkilötietojasi kolmansille osapuolille ainoastaan seuraavissa tilanteissa:
 - mikäli laki tai viranomainen niin vaatii
