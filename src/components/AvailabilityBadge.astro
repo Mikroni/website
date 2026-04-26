@@ -5,7 +5,7 @@ type Props = {
 }
 
 type Availability = 'available' | 'booked' | 'limited';
-const availability: Availability = 'available';
+const availability: Availability = 'booked';
 
 const texts: Record<Exclude<Props['lang'], undefined>, Record<Availability, string>> = {
   fi: {
